@@ -1,4 +1,4 @@
-#Empty board. Change zeros to a valid sudoku board.
+#Empty board. Change zeros to a valid sudoku board then use as input for functions
 
 example_sudoku_board_empty = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
                               [0, 0, 0, 0, 0, 0, 0, 0, 0],
