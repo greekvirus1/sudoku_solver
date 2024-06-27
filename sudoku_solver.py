@@ -1,23 +1,3 @@
-#Sudoku is 9x9 board, containing 3x3 boards, rows and columns must have the numbers 1 to 9 with NO REPEATS
-#What does a Sudoku board look like to a computer? A simple board with x,y coordinates
-#How to represent this? Is there a sudokuboard-like object? A list with rows and columns would be great.
-
-def custom_size_list(s):
-    '''
-    returns list filled with 0s of size 's'
-    :param s: int
-    '''
-    the_list = [0] * s
-    return the_list
-
-def custom_array_2d(x, y):
-    '''
-    returns 2d array of custom size
-    :param x, y: int
-    '''
-    arr = [[0] * x for _ in range(y)] #wtf is this? https://stackoverflow.com/questions/2739552/2d-list-has-weird-behavor-when-trying-to-modify-a-single-value
-    return arr
-
 example_sudoku_board_empty = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
                               [0, 0, 0, 0, 0, 0, 0, 0, 0],
                               [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -47,13 +27,6 @@ example_sudoku_board_actu2 = [[9, 5, 7, 6, 1, 3, 2, 8, 4],
                               [8, 4, 5, 7, 9, 2, 6, 1, 3],
                               [2, 9, 1, 4, 3, 6, 8, 7, 5],
                               [7, 3, 6, 1, 8, 5, 4, 2, 9]]
-
-#Above I played with lists and lists of lists to understand 2d arrays
-#Now let's assume we have a 9x9 array that is a sudoku board
-#Empty spaces are represented by 0 and some numbers are assumed to be filled in
-#I will assume given board is valid sudoku board, just not finished, so no weird numbers or something.
-#How do we proceed? A function that checks the board is a valid sudoku board as stated in line 1
-#and another function that does something?
 
 def sudoku_checker(board):
     valid_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
