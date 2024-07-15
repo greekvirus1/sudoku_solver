@@ -1,6 +1,3 @@
-It's terrible, do not use!
-I had a great time learning tho
-
 Hello I am Emilia Dimitriou.
 This is my first time sharing with github, I thought it'd be good practice.
 
