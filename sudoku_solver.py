@@ -115,4 +115,3 @@ def sudoku_solver(board):
             x = 0
             board_copy = board.copy()
             attempts += 1
-
