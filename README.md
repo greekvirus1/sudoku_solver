@@ -7,4 +7,4 @@ Inputing boards is a bit of a pain but I just want it to work.
 UPDATE 19/07/2024
 
 I'm done with this project for now, there are a few interesting ideas here if you are a beginner.
-Doesn't really work, I think I will come back in the future with a second version but done with it for now.
+Doesn't work well enough for me to be super happy with it, I think I will come back in the future with a second version but done with it for now.
